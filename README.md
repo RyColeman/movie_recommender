@@ -2,7 +2,7 @@
 A movie recommender app
 
 
-This project was inpired by a case study that was conducted in my time at Galvanize's Data Science Immersive program. The motivation here was to build a movie recommender model that would yeild the highest profit. 
+This project was inpired by a case study that was conducted in my time at Galvanize's Data Science Immersive program. The motivation here was to build a movie recommender model that would yield the highest profit. 
 
 ## Background:
 - A fictional company called Movies-Legit, uses a movie recommender to their users and although this recommender is not optimized, it has yeilded the company a significant revenue stream so their management is hesitent to change it but they want to explore any possible optimized solutions.
@@ -65,7 +65,7 @@ Interestingly enough, even though the BLO (Baseline Only) model had the best sco
 
 Here's how the NMF compares against the current Mean of Means solution:
 ![profit_score](images/profit_results_v1.png)
-So it works out that given our assumptions, the NMF at a threshold of 0.43 has 1.23% higher profit return than the current Mean-of-Means solution.
+- So it works out that given our assumptions, the NMF at a threshold of 0.43 has 1.23% higher profit return than the current Mean-of-Means solution.
 - Depending on how many customers Movies-Legit serves, a 1.23% profit increase could be substantial and switching from the mean-of-means to NMF model would be a smart business move.
 
 # The Web-App: Seeing is Believing
