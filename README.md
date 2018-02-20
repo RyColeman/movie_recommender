@@ -26,3 +26,38 @@ Hence the "mean" of Means name.
 
 ### Results:
 ![CV score of all models, RMSE & MAE](images/cross_val_box_plot_scaled_data_v2.png)
+- The take aways here, almost every model has a better score (lower RMSE & MAE) than the MoM (Mean-of-Means) recommender.
+- BLO (Baseline Only) model had the best RMSE & MAE score.
+
+The abreviations are as follows:
+- GM (Global Mean)
+- MoM (Mean of Means)
+- BLO (Baseline Only)
+- KNNb (KNN Basic)
+- KNNwm (KNN With Means)
+- KNNbl (KNN Baseline)
+- SVD (Singular Value Decomposition)
+- NMF (Non-negative Matrix Factorization)
+- SO (CoClustering)
+
+## Step 2: Use Profit curves to find our best model.
+- Even though we now have the accuracy scores of these models, the ultimate goal is the choose a model which yields Movies-Legit the most profit. We can do this with what's called a profit curve.
+
+### How we use the movie recommender in a business setting:
+- Every time a movie rating prediction for a given user is over a certain threshold (say 0.5, remember we scaled the ratings data from 0-1) then we'll recommend this movie to the user.
+- If we recommend a movie to a user that the user actually does like, this is a True-Positive.
+- If we recommend a movie to a user that the user doesn't like, like is called a False-Positive.
+
+### Make business assumptions
+- To build a profit curve, we'll need to first define what exactly a True-Positive and False-Positive means to the company.
+#### Here we'll make some assumptions:
+1. users pay a monthly subscription of $10/mo to use Movie-Legit's movie service.
+2. 1 out of every 20 users will renew their monthly subscription if they receive a movie recommendation they like (a True-Positive). 1 TP (True-Positive) = $10 * (1/20) = $0.50
+3. 1 out of every 20 users will end their monthly subscription if they recieve a movie recommendation they don't like (a False-Positive). 1 FP (False-Positive) = $10 * (1/20) = -$0.50
+
+#### Next the profit curve.
+- Now that have defined what a TP and FP mean to the business, we want to choose and model and a threshold for that model that gives the most profitable combination of TPs and FPs.
+- We can compare all a model's predictions against the real historical ratings users gave. Next we look at each threshold from 0-1 (where any prediction above the threshold is recommended to the user). Last we quantify the amount of TPs and FP by looking at whether a user actually liked the movie that was recommended. We can then plot all the models we're testing with all the threshold values to understand what model and threshold is most profitable given our business assumptions.
+
+### Results:
+![profit curves](images/profit_curves_v1.png)
