@@ -1,0 +1,40 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* .left, form {
+    float: left;
+}
+
+label{
+    padding: 15px;
+}
+
+.right, form {
+    float: right;
+}
+
+label{
+    padding: 15px;
+}
+
+.right
+{
+    margin:auto;
+    width:90%;
+    padding:10px;
+    border:outset;
+}
+select
+{
+    display:inline;
+    cursor:pointer;
+}
+.left
+{
+    display:inline;
+} */
