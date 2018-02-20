@@ -1,6 +1,4 @@
-# movie_recommender
-A movie recommender app
-
+# The Movie Recommender
 
 This project was inpired by a case study that was conducted in my time at Galvanize's Data Science Immersive program. The motivation here was to build a movie recommender model that would yield the highest profit. 
 
@@ -67,6 +65,12 @@ Here's how the NMF compares against the current Mean of Means solution:
 ![profit_score](images/profit_results_v1.png)
 - So it works out that given our assumptions, the NMF at a threshold of 0.43 has 1.23% higher profit return than the current Mean-of-Means solution.
 - Depending on how many customers Movies-Legit serves, a 1.23% profit increase could be substantial and switching from the mean-of-means to NMF model would be a smart business move.
+
+## NMF 101:
+- Non-negative Matrix Factorization works by decomposing an overall matrix of users and movies into two separate matrices:
+![matrix_factorization](images/nmf_visual_v1.png)
+- Here the X matix is our full matrix of movie ratings by users. U and V are the matrix components of X where U is users v. latent features and V is movies v. latent features. When you do a dot product of U and V you'll get an estimate of X.
+- 
 
 # The Web-App: Seeing is Believing
 - Although this case study is interesting, the real point to this project is the build an actual movie recommender.
