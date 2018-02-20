@@ -61,3 +61,16 @@ The abreviations are as follows:
 
 ### Results:
 ![profit curves](images/profit_curves_v1.png)
+Interestingly enough, even though the BLO (Baseline Only) model had the best score metric, when we make quanitify what TPs and FPs mean to the business, the NMF (Non-negative Matrix Factorization) model comes out to be the most profitable at a threshold of 0.43.
+
+Here's how the NMF compares against the current Mean of Means solution:
+![profit_score](images/profit_results_v1.png)
+So it works out that given our assumptions, the NMF at a threshold of 0.43 has 1.23% higher profit return than the current Mean-of-Means solution.
+- Depending on how many customers Movies-Legit serves, a 1.23% profit increase could be substantial and switching from the mean-of-means to NMF model would be a smart business move.
+
+# The Web-App: Seeing is Believing
+- Although this case study is interesting, the real point to this project is the build an actual movie recommender.
+- I'm happy to say that this thing actually does provide decent recommendations. I have pretty particuar movie tastes and I've already found a handful of awesome movies I never knew existed!
+Give it a whirl for yourself and enjoy!
+**WEB APP URL**
+
