@@ -70,5 +70,6 @@ Here's how the NMF compares against the current Mean of Means solution:
 - Although this case study is interesting, the real point to this project is the build an actual movie recommender.
 - I'm happy to say that this thing actually does provide decent recommendations. I have pretty particuar movie tastes and I've already found a handful of awesome movies I never knew existed!
 Give it a whirl for yourself and enjoy!
-**WEB APP URL**
+
+[WEB APP](http://ec2-52-91-161-183.compute-1.amazonaws.com:8105/)
 
