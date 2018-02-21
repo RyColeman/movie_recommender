@@ -3,7 +3,7 @@
 This project was inpired by a case study that was conducted in my time at Galvanize's Data Science Immersive program. The motivation here was to build a movie recommender model that would yield the highest profit. 
 
 ## Background:
-- A fictional company called Movies-Legit, uses a movie recommender to their users and although this recommender is not optimized, it has yeilded the company a significant revenue stream so their management is hesitent to change it but they want to explore any possible optimized solutions.
+- A fictional company called Movies-Legit, uses a movie recommender to their users and although this recommender is not optimized, it has yielded the company a significant revenue stream so their management is hesitent to change it but they want to explore any possible optimized solutions.
 
 - Currently Movies-Legit recommender uses what's called a 'mean-of-means'. How 'mean-of-means' works is that future un-seen movie ratings for a user are predicted by getting the mean of:
 
