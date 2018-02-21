@@ -1,3 +1,5 @@
+# [Check out the app here](http://ec2-52-91-161-183.compute-1.amazonaws.com:8105/)
+
 # The Movie Recommender
 
 This project was inpired by a case study that was conducted in my time at Galvanize's Data Science Immersive program. The motivation here was to build a movie recommender model that would yield the highest profit. 
