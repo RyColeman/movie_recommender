@@ -1,6 +1,4 @@
-# [Check out the app here](http://ec2-52-91-161-183.compute-1.amazonaws.com:8105/)
-
-# The Movie Recommender
+# [Your Movie Recommender App](http://ec2-52-91-161-183.compute-1.amazonaws.com:8105/)
 
 This project was inpired by a case study that was conducted in my time at Galvanize's Data Science Immersive program. The motivation here was to build a movie recommender model that would yield the highest profit. 
 
@@ -73,5 +71,5 @@ Here's how the NMF compares against the current Mean of Means solution:
 - I'm happy to say that this thing actually does provide decent recommendations. I have pretty particuar movie tastes and I've already found a handful of awesome movies I never knew existed!
 Give it a whirl for yourself and enjoy!
 
-[WEB APP](http://ec2-52-91-161-183.compute-1.amazonaws.com:8105/)
+[**WEB APP**](http://ec2-52-91-161-183.compute-1.amazonaws.com:8105/)
 
